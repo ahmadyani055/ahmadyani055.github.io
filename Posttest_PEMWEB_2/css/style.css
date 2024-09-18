@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    padding: 20px;
+    background-color: #7d7878;;
+    color: #fff;
+}
+
+.header h1 {
+    margin: 10px 0;
+}
+
+.header img.logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
+.content {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color:  #7d7878;;
+    color: #fff;
+}
+
+.billing-address {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.billing-address ul {
+    list-style-type: none;
+}
+
+.billing-address ol {
+    padding: 5px 0;
+    font-size: 16px;
+    color: #444;
+}
+
+.order-summary {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.order-summary h2 {
+    margin-bottom: 15px;
+    text-align: center;
+    color: #7d7878;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.order-summary th, .order-summary td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+.order-summary th {
+    background-color:  #7d7878;;
+    color: white;
+}
+
+.order-summary img.item-image {
+    width: 50px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.order-summary ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: right;
+}
+
+.order-summary li {
+    padding: 5px 0;
+}
+
+.total {
+    font-size: 24px;
+    color: #7d7878;;
+    margin-top: 10px;
+    text-align: right;
+    font-weight: bold;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .order-summary img.item-image {
+        width: 40px;
+    }
+    
+    .order-summary table, .order-summary ul {
+        font-size: 14px;
+    }
+
+    .total {
+        font-size: 20px;
+    }
+}
