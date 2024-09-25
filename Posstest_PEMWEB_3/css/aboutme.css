@@ -1,0 +1,91 @@
+/* Reset CSS untuk memastikan tampilan konsisten */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f4f8; /* Warna latar belakang yang cerah */
+    color: #333;
+}
+
+/* Header Style */
+header {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar Style */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #0056b3; /* Warna biru lebih gelap */
+}
+
+.navbar a {
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #004494; /* Warna biru gelap saat hover */
+}
+
+/* Main Content Style */
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Style */
+.profile {
+    text-align: center;
+}
+
+.profile-img {
+    width: 150px; /* Atur ukuran gambar sesuai kebutuhan */
+    height: 150px; /* Atur ukuran gambar sesuai kebutuhan */
+    border-radius: 50%; /* Membuat gambar menjadi bulat */
+    margin-bottom: 20px;
+    border: 3px solid #007bff; /* Border warna biru */
+}
+
+/* Biodata */
+h2 {
+    margin: 20px 0;
+    font-size: 1.5em;
+    color: #007bff; /* Warna biru untuk judul */
+}
+
+p {
+    line-height: 1.6; /* Meningkatkan jarak antar baris untuk keterbacaan */
+    margin-bottom: 10px;
+}
+
+/* Footer Style */
+.footer {
+    background-color: #007bff; /* Warna biru */
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: relative;
+    margin-top: 20px;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #2c2c2c;
+    color: white;
+}
