@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Pemesanan</title>
+    <link rel="stylesheet" href="css/form_pemesanan.css"> 
+</head>
+<body>
+
+    <div class="container">
+        <h1>Form Pemesanan</h1>
+        <form action="php/formpemesanan.php" method="post">
+            <label for="nama">Nama Lengkap:</label>
+            <input type="text" id="nama" name="nama" required>
+
+            <label for="alamat">Alamat Pengiriman:</label>
+            <textarea id="alamat" name="alamat" rows="4" required></textarea>
+
+            <label for="produk">Pilih Produk:</label>
+            <select id="produk" name="produk" required>
+                <option value="Beras Premium">Beras Premium</option>
+                <option value="Minyak Goreng">Minyak Goreng</option>
+                <option value="Gula Pasir">Gula Pasir</option>
+            </select>
+
+            <label for="jumlah">Jumlah Barang:</label>
+            <input type="number" id="jumlah" name="jumlah" min="1" required>
+
+            <label for="pembayaran">Metode Pembayaran:</label>
+            <select id="pembayaran" name="pembayaran" required>
+                <option value="Transfer Bank">Transfer Bank</option>
+                <option value="COD">Cash on Delivery (COD)</option>
+            </select>
+
+            <button type="submit">Kirim Pesanan</button>
+        </form>
+
+        <button class="back-button" onclick="history.back()">Kembali ke Produk</button>
+    </div>
+
+</body>
+</html>
