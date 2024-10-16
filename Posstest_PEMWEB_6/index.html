@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Toko Sembako Online</title>
+    <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Toko Sembako Online</h1>
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="aboutme.html">Tentang Saya</a> 
+        </div>
+    </header>
+
+    <div class="content">
+        <h2>Produk Kami</h2>
+
+        <div class="product">
+            <h3>Beras Premium</h3>
+            <img src="gambar/beras-premium.jpeg" alt="Beras Premium" style="width:200px; height:auto;">
+            <p>Harga: Rp 12.000/kg</p>
+            <a href="form_pemesanan.html">Pesan Sekarang</a> <!-- Perubahan di sini -->
+        </div>
+
+        <div class="product">
+            <h3>Minyak Goreng</h3>
+            <img src="gambar/oli-bekas.jpg" alt="Minyak Goreng" style="width:200px; height:auto;">
+            <p>Harga: Rp 14.000/L</p>
+            <a href="form_pemesanan.html">Pesan Sekarang</a> <!-- Perubahan di sini -->
+        </div>
+
+        <div class="product">
+            <h3>Gula Pasir</h3>
+            <img src="gambar/namanya-gula.jpg" alt="Gula Pasir" style="width:200px; height:auto;">
+            <p>Harga: Rp 10.000/kg</p>
+            <a href="form_pemesanan.html">Pesan Sekarang</a> <!-- Perubahan di sini -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Toko Sembako Online. Hubungi kami di: ahmadyaniisback07@gmail.com</p>
+    </div>
+
+    <button onclick="toggleMode()">Ubah Mode</button>
+
+    <div id="popup" class="popup">
+        <p>Selamat datang di Toko Sembako Online! Dapatkan diskon 10% hari ini!</p>
+        <button onclick="closePopup()">Tutup</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
